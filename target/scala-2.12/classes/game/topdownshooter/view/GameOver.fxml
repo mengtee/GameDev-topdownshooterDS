@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="gameOverPane" prefHeight="563.0" prefWidth="1000.0" style="-fx-background-image: url('GameOverImage.png'); -fx-background-size: cover; -fx-background-repeat: no-repeat;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.topdownshooter.view.GameOverController">
+    <children>
+        <Text fx:id="gameOverText" fill="#b23939" layoutX="353.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Over">
+         <font>
+            <Font name="Wayfarer's Toy Box Regular" size="35.0" />
+         </font></Text>
+        <Button fx:id="replayButton" layoutX="533.0" layoutY="312.0" mnemonicParsing="false" onAction="#restartGame" styleClass="light-red-button" text="Replay" />
+      <Button fx:id="backToMenu" layoutX="441.0" layoutY="312.0" mnemonicParsing="false" onAction="#handleMenuButtonAction" styleClass="light-red-button" text="Menu" />
+    </children>
+</AnchorPane>

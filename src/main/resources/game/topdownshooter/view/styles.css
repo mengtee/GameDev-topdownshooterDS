@@ -1,0 +1,94 @@
+/*#playButton {*/
+/*    -fx-background-color: pink;*/
+/*    -fx-font-size: 20px;*/
+/*}*/
+
+/*#playButton:hover {*/
+/*    -fx-background-color: #FFB6C1; !* Lighter shade of pink *!*/
+/*}*/
+#playButton {
+    -fx-background-color: #FF69B4; /* Hot Pink */
+    -fx-text-fill: #FFFFFF; /* White Text */
+    -fx-font-size: 20px;
+    -fx-border-color: #FF1493; /* Deep Pink Border */
+    -fx-border-width: 2px;
+}
+
+#playButton:hover {
+    -fx-background-color: #FFB6C1; /* Light Pink on hover */
+}
+.menu-bar {
+    -fx-background-color: #3a1a6f; /* Dark Purple color for the menu bar */
+}
+
+.menu-bar .label {
+    -fx-text-fill: #FFFFFF; /* White text color for the menu bar text */
+}
+
+.menu {
+    -fx-text-fill: #FFFFFF; /* White text color for the menu */
+}
+
+.menu-item .label {
+    -fx-background-color: #FFFFFF; /* White background color for the dropdown items */
+    -fx-text-fill: #000000; /* Black text color for the dropdown items */
+}
+
+.menu-item:hover {
+    -fx-background-color: #6A5ACD; /* Slightly lighter purple on hover */
+    -fx-text-fill: #000000; /* Black text color for the dropdown items */
+}
+
+
+.light-purple-button {
+    -fx-background-color: #d4a8e4; /* Light Purple Color */
+    -fx-text-fill: #000000; /* Black text */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.light-purple-button {
+    -fx-background-color: #d4a8e4; /* Light Purple Color */
+    -fx-text-fill: #000000; /* Black text */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.light-purple-button:hover {
+    -fx-background-color: #c892d8; /* Slightly Darker Purple for Hover */
+}
+
+.light-red-button {
+    -fx-background-color: #b23939; /* Main Color */
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.light-red-button:hover {
+    -fx-background-color: #f66d6d; /* Hover Color */
+}
+
+
+
+.dialog-pane {
+    -fx-background-color: #3a1a6f; /* Dark Purple Background */
+}
+
+.dialog-pane .content.label {
+    -fx-text-fill: white; /* White text color for the content text */
+}
+
+.dialog-pane .button {
+    -fx-background-color: #5a2a9f; /* Darker purple for buttons */
+    -fx-text-fill: white; /* White text color for buttons */
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #482880; /* Slightly lighter purple when hovering over a button */
+}
+
+

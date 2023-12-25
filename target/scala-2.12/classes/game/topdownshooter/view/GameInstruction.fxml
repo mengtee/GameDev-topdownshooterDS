@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="1000.0" style="-fx-background-image: url('GameInterfaceImage.png'); -fx-background-size: cover; -fx-background-repeat: no-repeat;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.topdownshooter.view.GameInstructionController">
+   <children>
+
+            <SplitPane dividerPositions="0.5" prefHeight="286.0" prefWidth="558.0" style="-fx-background-image: url('GameInterfaceImage2.png'); -fx-background-size: cover; -fx-background-repeat: no-repeat;" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="100.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Move the Shooter: Use the arrow key (Up, Down, Left, Right on the keyboard to control the shooter) " wrappingWidth="338.128887116909" />
+                        <Text layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Alternatively, can use keys w (up) ,a (left), s(down), d (right) to control the player." wrappingWidth="338.1289094686508" />
+                  <Text layoutX="14.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Use your mouse to click in the direction of enemy in order to shoot the bullet. The first 3 enemy will move randomly, while the Chicken will follow the Shooter and attack." wrappingWidth="338.1288982927799" />
+                  <Text layoutX="14.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Player can move to the bonus point, to reload the bullet/ammo or get 1 heart. The items inside the bonus point are unknown." wrappingWidth="338.12890116870403" />
+                  <Text layoutX="16.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Player is assigned with 6 Hearts (Live) and 100 Ammo. (Show on the upper left and right of game interface" wrappingWidth="331.5380774438381" />
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="335.0" prefWidth="385.0">
+                     <children>
+                        <ImageView fitHeight="125.0" fitWidth="250.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true" />
+                        <ImageView fitHeight="141.0" fitWidth="284.0" layoutX="57.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Keyboard.png" />
+                           </image>
+                        </ImageView>
+                  <ImageView fitHeight="62.0" fitWidth="230.0" layoutX="75.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../EnemyImage.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="76.0" fitWidth="250.0" layoutX="73.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Bonus.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="98.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../heart.png" />
+                     </image>
+                  </ImageView>
+                     </children>
+            </AnchorPane>
+              </items>
+            </SplitPane>
+
+       <Button layoutX="522.0" layoutY="487.0" mnemonicParsing="false" onAction="#proceedToGame" styleClass="light-purple-button" text="Proceed to Game" />
+      <Text fill="#1b1b1b" layoutX="40.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player Guidelines">
+         <font>
+            <Font name="Wayfarer's Toy Box Regular" size="25.0" />
+         </font>
+      </Text>
+       <Button layoutX="424.0" layoutY="487.0" mnemonicParsing="false" onAction="#backToMenu" styleClass="light-purple-button" text="Menu" />
+   </children>
+</AnchorPane>

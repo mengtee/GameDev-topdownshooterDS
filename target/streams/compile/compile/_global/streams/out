@@ -1,0 +1,139 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:7:8: not found: object javafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport javafx.{scene => jfxs}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:23:20: Symbol 'type javafx.fxml.FXMLLoader' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafxml.core.FXMLLoader'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type FXMLLoader is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'FXMLLoader.class' was compiled against an incompatible version of javafx.fxml.[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new FXMLLoader(rootResource, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:24:10: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  loader.load[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:24:15: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m  loader.load[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:25:14: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m  val roots: jfxs.layout.BorderPane = loader.getRoot[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:25:46: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val roots: jfxs.layout.BorderPane = loader.getRoot[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:25:54: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m  val roots: jfxs.layout.BorderPane = loader.getRoot[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:24:3: Symbol 'type javafx.event.EventTarget' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.stage.Window'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type EventTarget is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Window.class' was compiled against an incompatible version of javafx.event.[0m
+[0m[[0m[31merror[0m] [0m[0m  loader.load[jfxs.layout.BorderPane]()[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:32:7: Symbol 'type javafx.collections.ObservableList' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.Scene.stylesheets'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableList is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Scene.class' was compiled against an incompatible version of javafx.collections.[0m
+[0m[[0m[31merror[0m] [0m[0m      stylesheets += getClass.getResource("view/styles.css").toExternalForm[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:45:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load();[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:47:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:47:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:55:12: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:56:24: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:56:32: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m    val roots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:31:5: Symbol 'type javafx.scene.Scene' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.stage.Window.scene'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Scene is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Window.class' was compiled against an incompatible version of javafx.scene.[0m
+[0m[[0m[31merror[0m] [0m[0m    scene = new Scene(roots){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/model/ShooterGame.scala:13:19: Symbol 'type javafx.event.EventHandler' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.Node.onMousePressed'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type EventHandler is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Node.class' was compiled against an incompatible version of javafx.event.[0m
+[0m[[0m[31merror[0m] [0m[0m  var gameHeight: Double = 563[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:109:21: Symbol 'type javafx.beans.value.ObservableValue' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'trait scalafx.beans.value.ObservableValue'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableValue is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'ObservableValue.class' was compiled against an incompatible version of javafx.beans.value.[0m
+[0m[[0m[31merror[0m] [0m[0m    val gameScene = stage.scene()[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:126:5: Symbol 'type javafx.beans.value.ObservableMapValue' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.beans.value.ObservableValue.sfxObservableValue2jfxMapValue'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type ObservableMapValue is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'ObservableValue.class' was compiled against an incompatible version of javafx.beans.value.[0m
+[0m[[0m[31merror[0m] [0m[0m    stage.scene.width.onChange { (_, _, newValue) =>[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:146:14: value load is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m      loader.load()[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:147:34: value getRoot is not a member of scalafxml.core.FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m      val gameOverRoots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/MainApp.scala:147:42: not found: value jfxs[0m
+[0m[[0m[31merror[0m] [0m[0m      val gameOverRoots = loader.getRoot[jfxs.layout.AnchorPane][0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/model/ShooterGame.scala:145:23: Symbol 'type javafx.geometry.Bounds' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'method scalafx.scene.Node.boundsInLocal'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Bounds is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Node.class' was compiled against an incompatible version of javafx.geometry.[0m
+[0m[[0m[31merror[0m] [0m[0m      val textWidth = textNode.boundsInLocal.value.getWidth[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/view/GameInstructionController.scala:6:2: not found: value javafx[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/view/GameOverController.scala:9:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.ScalaReflectionException: object javafx.scene.layout.AnchorPane in compiler mirror not found.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$8(sfxmlMacro.scala:165)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:163)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:578)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$6(JavaReflectionRuntimes.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/view/MenuPageController.scala:11:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.ScalaReflectionException: object javafx.event.ActionEvent in compiler mirror not found.[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Mirrors$RootsBase.staticClass(Mirrors.scala:29)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:119)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.toJavaFXTypeOrOriginal$1(sfxmlMacro.scala:144)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$11(sfxmlMacro.scala:181)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$10(sfxmlMacro.scala:180)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$9(sfxmlMacro.scala:180)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:297)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:578)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.runtime.JavaReflectionRuntimes$JavaReflectionResolvers.$anonfun$resolveJavaReflectionRuntime$6(JavaReflectionRuntimes.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.typechecker.Macros.macroExpandWithRuntime(Macros.scala:849)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/view/MenuPageController.scala:4:8: not found: object javafx[0m
+[0m[[0m[31merror[0m] [0m[0mimport javafx.fxml.FXML[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/view/MenuPageController.scala:14:4: not found: type FXML[0m
+[0m[[0m[31merror[0m] [0m[0m  @FXML[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/TEEMENGKIAT/IdeaProjects/topdownshooterapp/src/main/scala/game/topdownshooter/view/RootLayoutController.scala:9:2: not found: value javafx[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m29 errors found[0m
